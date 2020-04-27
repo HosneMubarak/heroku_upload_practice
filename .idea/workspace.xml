@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd07341f-0dd2-41e5-a764-ce74f01ae6e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adress_book/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/heroku_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/heroku_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adress_book/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/adress_book/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adress_book/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/adress_book/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +86,7 @@
       <workItem from="1588003489881" duration="2500000" />
       <workItem from="1588006033780" duration="199000" />
       <workItem from="1588006481121" duration="841000" />
-      <workItem from="1588012253063" duration="3542000" />
+      <workItem from="1588012253063" duration="4786000" />
     </task>
     <servers />
   </component>
