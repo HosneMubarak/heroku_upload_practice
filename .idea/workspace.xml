@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fd07341f-0dd2-41e5-a764-ce74f01ae6e5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adress_book/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/adress_book/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adress_book/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/adress_book/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adress_book/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/adress_book/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/add_address.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_address.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/heroku_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/heroku_project/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +86,7 @@
       <workItem from="1588006033780" duration="199000" />
       <workItem from="1588006481121" duration="841000" />
       <workItem from="1588012253063" duration="8326000" />
-      <workItem from="1588029961200" duration="2673000" />
+      <workItem from="1588029961200" duration="3370000" />
     </task>
     <servers />
   </component>
