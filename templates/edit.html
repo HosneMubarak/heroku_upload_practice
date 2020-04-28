@@ -1,38 +1,45 @@
 {% extends 'base.html' %}
 {% block content %}
     <div class="conatiner mt-4">
-        <h4>Address Form:</h4>
+        <h4>Update Address Form:</h4>
         <form method="POST">
             {% csrf_token %}
             <div class="form-group">
                 <input type="text" name="name" class="form-control"
-                       placeholder="Fullname">
+                       value="{{ get_address.name }}">
             </div>
             <div class="form-group">
                 <input type="text" name="phone" class="form-control"
-                       placeholder="phone">
+                       value="{{ get_address.phone }}">
             </div>
             <div class="form-group">
                 <input type="text" class="form-control"
-                       placeholder="city" name="address">
+                       value="{{ get_address.address }}" name="address">
             </div>
             <div class="form-group">
                 <input type="text" class="form-control"
-                       placeholder="State" name="city">
+                       value="{{ get_address.city }}" name="city">
             </div>
             <div class="form-group">
                 <input type="text" class="form-control"
-                       placeholder="zipcode" name="state">
+                       value="{{ get_address.state }}" name="state">
             </div>
             <div class="form-group">
                 <input type="text" class="form-control"
-                       placeholder="Email" name="zipcode">
+                       value="{{ get_address.zipcode }}" name="zipcode">
             </div>
             <div class="form-group">
                 <input type="text" class="form-control"
-                       placeholder="Email" name="email">
+                       value="{{ get_address.email }}" name="email">
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+        <div>
+            <form method="POST" action="{% url 'delete-address' get_address.id %}">
+                {% csrf_token %}
+                <input type="hidden" value="{{ get_address.id }}" name="id">
+                <button type="submit" class="btn btn-danger">Delete</button>
+            </form>
+        </div>
     </div>
 {% endblock %}

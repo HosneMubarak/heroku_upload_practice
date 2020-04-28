@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd07341f-0dd2-41e5-a764-ce74f01ae6e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/adress_book/migrations/0001_initial.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/adress_book/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/adress_book/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/adress_book/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/adress_book/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adress_book/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/adress_book/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/adress_book/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/adress_book/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/add_address.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add_address.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +31,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1b8Ak1SuDA5WRPIucmAsvNVr3Dp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -86,7 +91,8 @@
       <workItem from="1588003489881" duration="2500000" />
       <workItem from="1588006033780" duration="199000" />
       <workItem from="1588006481121" duration="841000" />
-      <workItem from="1588012253063" duration="4786000" />
+      <workItem from="1588012253063" duration="8326000" />
+      <workItem from="1588029961200" duration="2673000" />
     </task>
     <servers />
   </component>
@@ -98,29 +104,41 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="457" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588014163920" />
-    <state width="1323" height="181" key="GridCell.Tab.0.bottom" timestamp="1588015974330">
+    <state width="1323" height="181" key="GridCell.Tab.0.bottom" timestamp="1588030924028">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="181" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588015974330" />
-    <state width="1323" height="181" key="GridCell.Tab.0.center" timestamp="1588015974330">
+    <state width="1323" height="181" key="GridCell.Tab.0.bottom/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588030924028" />
+    <state width="1323" height="181" key="GridCell.Tab.0.center" timestamp="1588030924027">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="181" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588015974330" />
-    <state width="1323" height="181" key="GridCell.Tab.0.left" timestamp="1588015974329">
+    <state width="1323" height="181" key="GridCell.Tab.0.center/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588030924027" />
+    <state width="1323" height="181" key="GridCell.Tab.0.left" timestamp="1588030924027">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="181" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588015974329" />
-    <state width="1323" height="181" key="GridCell.Tab.0.right" timestamp="1588015974330">
+    <state width="1323" height="181" key="GridCell.Tab.0.left/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588030924027" />
+    <state width="1323" height="181" key="GridCell.Tab.0.right" timestamp="1588030924028">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="181" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588015974330" />
+    <state width="1323" height="181" key="GridCell.Tab.0.right/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588030924028" />
     <state x="191" y="12" key="SettingsEditor" timestamp="1588006570169">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="191" y="12" key="SettingsEditor/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588006570169" />
-    <state x="386" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1588012262734">
+    <state x="386" y="194" key="com.intellij.ide.util.TipDialog" timestamp="1588029967437">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="386" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588012262734" />
+    <state x="386" y="194" key="com.intellij.ide.util.TipDialog/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588029967437" />
+    <state x="1373" y="0" width="998" height="514" key="dock-window-1" timestamp="1588019608130">
+      <screen x="1366" y="0" width="1366" height="738" />
+    </state>
+    <state x="1373" y="0" width="998" height="514" key="dock-window-1/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588019608130" />
+    <state x="1464" y="121" width="998" height="514" key="dock-window-2" timestamp="1588019673025">
+      <screen x="1366" y="0" width="1366" height="738" />
+    </state>
+    <state x="1464" y="121" width="998" height="514" key="dock-window-2/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588019673025" />
+    <state x="1366" y="0" width="998" height="514" key="dock-window-3" timestamp="1588020999037">
+      <screen x="1366" y="0" width="1366" height="738" />
+    </state>
+    <state x="1366" y="0" width="998" height="514" key="dock-window-3/0.0.1366.738/1366.0.1366.738@0.0.1366.738" timestamp="1588020999037" />
   </component>
 </project>
